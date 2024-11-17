@@ -9,7 +9,7 @@ const Header = () => {
       <h2 className="text-2xl text-gray-500 font-semibold">
         Journalism Without Fear or Favour
       </h2>
-      <p>{moment().format("dddd, MMMM Do YYYY, h:mm:ss a")}</p>
+      <p>{moment().format("dddd, MMMM Do YYYY, h:mm a")}</p>
     </div>
   );
 };
