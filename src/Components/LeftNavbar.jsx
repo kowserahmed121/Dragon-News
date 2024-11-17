@@ -14,7 +14,7 @@ const LeftNavbar = () => {
       <div className="flex flex-col gap-2 bg-gray-100 rounded-md p-4">
         {categories.map((category) => (
           <NavLink
-            to={`category/${category.category_id}`}
+            to={`/category/${category.category_id}`}
             className="btn text-gray-500 btn-ghost"
           >
             {category.category_name}
