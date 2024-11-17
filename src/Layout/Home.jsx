@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../Components/Header";
 import LetestNews from "../Components/LetestNews";
 import Navbar from "../Components/Navbar";
+import LeftNavbar from "../Components/LeftNavbar";
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
         <Navbar></Navbar>
       </nav>
       <main className="grid grid-cols-12 w-11/12 mx-auto gap-3 mt-10">
-        <aside className="col-span-3">left nav</aside>
+        <aside className="col-span-3">
+          <LeftNavbar></LeftNavbar>
+        </aside>
         <section className="col-span-6">main content</section>
         <aside className="col-span-3">right nav</aside>
       </main>
