@@ -12,10 +12,11 @@ const LeftNavbar = () => {
     <div>
       <h2 className="text-xl font-bold mb-6">All Category</h2>
       <div className="flex flex-col gap-2 bg-gray-100 rounded-md p-4">
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <NavLink
             to={`/category/${category.category_id}`}
             className="btn text-gray-500 btn-ghost"
+            key={index}
           >
             {category.category_name}
           </NavLink>

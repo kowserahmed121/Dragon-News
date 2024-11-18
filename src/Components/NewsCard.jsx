@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillStar, AiOutlineEye, AiOutlineShareAlt } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const NewsCard = ({ card }) => {
   return (
@@ -33,9 +34,12 @@ const NewsCard = ({ card }) => {
         <p className="text-sm text-gray-500 mt-2">
           {card.details.substring(0, 100)}...
         </p>
-        <a href="#" className="text-orange-500 font-bold mt-4">
+        <Link
+          to={`/news/${card._id}`}
+          className="text-orange-500 font-bold mt-4"
+        >
           Read More
-        </a>
+        </Link>
       </div>
 
       {/* Footer */}
