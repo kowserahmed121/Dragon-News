@@ -24,7 +24,7 @@ const NewsCard = ({ card }) => {
       <img
         src={card.thumbnail_url}
         alt="Thumbnail"
-        className="w-full h-80 object-cover"
+        className="w-full h-[300px] object-cover"
       />
 
       {/* Card Body */}

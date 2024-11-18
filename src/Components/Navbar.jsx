@@ -13,7 +13,9 @@ const Navbar = () => {
         <div>
           <img src={logoImg} alt="" />
         </div>
-        <button className="btn btn-neutral rounded-md">Login</button>
+        <Link to="/auth/login" className="btn btn-neutral rounded-md">
+          Login
+        </Link>
       </div>
     </div>
   );

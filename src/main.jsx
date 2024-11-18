@@ -9,6 +9,9 @@ import {
 import Home from "./Layout/Home";
 import News from "./Layout/News";
 import CategoryNews from "./Page/CategoryNews";
+import AuthLayout from "./Layout/AuthLayout";
+import Login from "./Components/Login";
+import Register from "./Components/Register";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +35,20 @@ const router = createBrowserRouter([
   {
     path: "/news",
     element: <News></News>,
+  },
+  {
+    path: "auth",
+    element: <AuthLayout></AuthLayout>,
+    children: [
+      {
+        path: "/auth/login",
+        element: <Login></Login>,
+      },
+      {
+        path: "/auth/register",
+        element: <Register></Register>,
+      },
+    ],
   },
 ]);
 

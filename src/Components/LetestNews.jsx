@@ -9,15 +9,18 @@ const LetestNews = () => {
       <marquee speed={120} className="space-x-10">
         <Link to="/news">
           Keep your finger on the pulse of cyber security and stay up to date
-          with our Dragon News Blog.
+          with our Dragon News Blog. Keep your finger on the pulse of cyber
+          security and stay up to date with our Dragon News Blog.
         </Link>
         <Link to="/news">
           Keep your finger on the pulse of cyber security and stay up to date
-          with our Dragon News Blog.
+          with our Dragon News Blog. Keep your finger on the pulse of cyber
+          security and stay up to date with our Dragon News Blog.
         </Link>
         <Link to="/news">
           Keep your finger on the pulse of cyber security and stay up to date
-          with our Dragon News Blog.
+          with our Dragon News Blog. Keep your finger on the pulse of cyber
+          security and stay up to date with our Dragon News Blog.
         </Link>
       </marquee>
     </div>
