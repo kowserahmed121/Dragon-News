@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const NewsDetails = ({ newsData }) => {
-  console.log(newsData);
+  // console.log(newsData);
   return (
     <div>
       <div className="card bg-base-100 border-2 mt-6 ">
